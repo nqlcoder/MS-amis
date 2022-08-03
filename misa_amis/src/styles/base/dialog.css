@@ -1,0 +1,230 @@
+.m-dialog {
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+.m-dialog-show {
+    display: block;
+}
+
+.m-dialog .m-dialog-content {
+    border-radius: 4px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.m-info-employee {
+    height: 600px;
+    width: 900px;
+    min-width: 900px;
+    max-width: 900px;
+}
+
+.m-dialog .m-dialog-close {
+    cursor: pointer;
+    border-radius: 0 4px 0 4px;
+    color: #646778;
+    display: flex;
+    padding: 12px;
+}
+
+.m-close-dialog {
+    position: relative;
+    display: inline-block;
+}
+
+.m-close-dialog:hover {
+    color: #E5E5E5;
+}
+
+.m-close-dialog .tooltipText {
+    visibility: hidden;
+    min-width: 90px;
+    background-color: rgb(116, 111, 111);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 100%;
+    margin-left: -60px;
+}
+
+.m-close-dialog:hover .tooltipText {
+    visibility: visible;
+}
+
+.m-dialog .m-dialog-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 5px 5px;
+    position: relative;
+}
+
+.m-is-customer,
+.m-is-provider {
+    align-items: center;
+    justify-items: center;
+    padding: 0 19.5px;
+}
+
+.m-dialog .m-dialog-header .m-header-container {
+    width: 100%;
+    padding: 20px 30px;
+    overflow: hidden;
+    padding-right: 12px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.m-dialog .m-dialog-content .m-dialog-body {
+    padding: 0 32px 20px 32px;
+}
+
+.m-flex-row-input {
+    display: flex;
+    padding-bottom: 12px;
+}
+
+.m-dialog-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    border-radius: 0px 0px 4px 4px;
+    padding: 0px 32px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 20px;
+}
+
+.m-dialog .m-dialog-content .m-dialog-body {
+    width: 100%;
+    height: calc(100% - 46px);
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.m-dialog-body-content1 {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.m-dialog-body1-left,
+.m-dialog-body1-right {
+    width: 50%;
+}
+
+.m-dialog-body1-left {
+    padding-right: 26px;
+}
+
+.m-dialog-notice .m-dialog-body {
+    display: flex;
+    align-items: center;
+}
+
+.m-dialog-notice .m-dialog-body .m-dialog-icon,
+.m-dialog-delete .m-dialog-body .m-dialog-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    font-size: 24px;
+    color: #FF4747;
+}
+
+.m-radio-gender {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.m-divide {
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+    margin: 32px 0 20px;
+    position: relative;
+}
+
+
+/* NOTICE */
+
+.m-dialog .m-dialog-notice {
+    border-radius: 4px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.m-dialog-notice .m-dialog-content {
+    width: 444px;
+    min-width: 444px;
+    padding: 32px;
+}
+
+.m-dialog-notice .m-dialog-content .m-dialog-body {
+    padding: 0;
+    overflow: hidden;
+}
+
+.m-dialog-notice .m-dialog-content .m-dialog-footer {
+    padding: 0;
+}
+
+.m-icon-notice {
+    width: 48px;
+    height: 100%;
+    margin-right: 10px;
+    font-size: 48px;
+    color: #FF4747;
+}
+
+.m-message-content {
+    overflow: auto;
+    max-height: 400px;
+    margin-bottom: 32px;
+    padding-left: 16px;
+    padding-top: 12px;
+}
+
+.m-notice-mess-line {
+    height: 1px;
+    background: #b8bcc3;
+    margin-bottom: 20px;
+}
+
+.m-notice-footer {
+    position: relative;
+    height: 36px;
+    box-sizing: content-box;
+    justify-content: center;
+    display: flex;
+    width: auto;
+}
+
+.m-notice-confirm-footer {
+    display: flex;
+    justify-content: space-between!important;
+}

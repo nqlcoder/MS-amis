@@ -1,0 +1,129 @@
+#m-toast-box{
+    position: fixed;
+    top: 10px;
+    right: 5px;
+  }
+  
+  .m-toast-msg{
+    display: flex;
+    align-items: center;
+    min-height: 48px;
+    border-radius: 4px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.19);
+    padding: 8px;
+    width: 280px;
+    margin-bottom: 8px;
+    background-color: #fff;
+    animation: slide_show 2s ease forwards;
+  }
+  
+  .m-toast-msg .m-toast-icon{
+    width: 24px;
+    height: 24px;
+    background-color: aquamarine;
+    margin-right: 8px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .m-toast-msg .m-toast-text{
+    width: 100%;
+  }
+  
+  .m-toast-msg .m-toast-close{
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: .5;
+  }
+  
+  .m-toast-msg .m-toast-close:hover{
+    opacity: 1;
+  }
+  
+  /* Errors */
+  .m-toast-msg.m-toast-icon-error .m-toast-icon{
+    background-color: #FF4747;
+    font-size: 13px;
+    color: #fff;
+  }
+  
+  .m-toast-msg.m-toast-icon-error .m-toast-close{
+    color: #FF4747;
+  } 
+  
+  /* Warning */
+  .m-toast-msg.m-toast-icon-warning .m-toast-icon{
+    background-color: #ffb300;
+    font-size: 13px;
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .m-toast-msg.m-toast-icon-warning .m-toast-close{
+    color: #ffb300;
+  } 
+  
+  /* Success */
+  .m-toast-msg.m-toast-icon-success .m-toast-icon{
+    background-color: #00925f;
+    font-size: 13px;
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .m-toast-msg.m-toast-icon-success .m-toast-close{
+    color: #00925f;
+  } 
+  
+  /* Info */
+  .m-toast-msg.m-toast-icon-info .m-toast-icon{
+    background-color: #0077ff;
+    font-size: 13px;
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .m-toast-msg.m-toast-icon-info .m-toast-close{
+    color: #0077ff;
+  } 
+  
+  @keyframes slide_show{
+    0%{
+      transform: translateX(50%);
+    }
+  
+    25%{
+      transform: translateX(-10%);
+    }
+  
+    50%{
+      transform: translateX(0%);
+    }
+  
+    100%{
+      transform: translateX(-10%);
+    }
+  }
+  
+  @keyframes slide_hide{
+    0%{
+      transform: translateX(-10%);
+    }
+  
+    25%{
+      transform: translateX(-10%);
+    }
+  
+    50%{
+      transform: translateX(0%);
+    }
+  
+    100%{
+      transform: translateX(200%);
+    }
+  }
+  
+  

@@ -1,0 +1,90 @@
+.m-input {
+    border-width: 1px;
+    border-color: #bbb;
+    border-style: solid;
+    height: 32px;
+    padding: 0 12px 0 10px;
+    outline: unset;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.m-input:focus {
+    border-color: #2CA01C;
+}
+
+.m-input[formatDate] {
+    font-size: 13px;
+    color: #bbb;
+    text-transform: uppercase;
+}
+
+.m-input::placeholder {
+    font-size: 11px;
+    color: #bbb;
+}
+
+.m-input-box {
+    position: relative;
+}
+
+.m-input-error {
+    border-color: #FF4747;
+}
+
+.m-input-error+.m-error-info {
+    position: absolute;
+    background-color: #FF4747;
+    border-radius: 4px;
+    color: #fff;
+    padding: 8px;
+    font-size: 13px;
+    top: calc(-100% - 10px);
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.m-input-error+.m-error-info .m-error-arrow {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #FF4747;
+    transform: rotate(45deg);
+    top: 25%;
+    left: 33%;
+}
+
+.m-error-info .m-error-text {
+    position: relative;
+}
+
+
+/* ICON */
+
+.m-input-icon {
+    padding-left: 10px;
+}
+
+.m-infor-1 .m-infor-1-left .m-input,
+.m-infor-1 .m-infor-1-right .m-input,
+.m-infor-2 .m-infor-2-left .m-input,
+.m-infor-2 .m-infor-2-right .m-input {
+    width: 300px;
+    margin: 4px 10px;
+}
+
+.m-page-toolbar .m-button-container input::placeholder {
+    font-style: italic;
+}
+
+.m-input-search {
+    padding: 0px 36px 0px 10px;
+}
+
+.m-search-input-icon {
+    position: absolute;
+    left: auto;
+    right: 82px;
+}

@@ -1,0 +1,94 @@
+.m-paging {
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    height: 32px;
+    padding: 12px;
+    width: 100%;
+}
+
+.m-paging .m-paging-left {
+    width: 50%;
+    justify-content: left;
+}
+
+.m-paging .m-paging-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.m-paging button.m-nav-page {
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    outline: unset;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+.m-paging button.m-nav-page:hover {
+    background-color: #b2b2b2;
+}
+
+.m-paging .m-page-number {
+    display: flex;
+    cursor: pointer;
+    height: 20px;
+    align-items: center;
+}
+
+.m-page-grid {
+    position: relative;
+}
+
+.m-page-grid .m-grid .m-paging {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.m-page-index {
+    display: flex;
+    height: 18px;
+}
+
+.m-index {
+    padding: 0px 6.5px;
+}
+
+.pageSelected {
+    border: 1px solid #e0e0e0;
+}
+
+.m-number-per-page {
+    width: 200px;
+    height: 32px;
+    margin: 0 16px;
+}
+
+.m-page-prev {
+    margin-right: 13px;
+}
+
+.m-page-next {
+    margin-left: 13px;
+}
+
+.m-page-number .page-item {
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3px;
+}
+
+.page-item.active {
+    color: #111;
+    font-weight: bold;
+}

@@ -1,0 +1,25 @@
+select {
+    border-width: 1px;
+    border-color: #bbb;
+    border-style: solid;
+    height: 32px;
+    padding: 0 12px 0 10px;
+    outline: unset;
+    box-sizing: border-box;
+}
+
+.m-select-department {
+    width: 100%;
+}
+
+.m-select-department option {
+    height: 40px;
+}
+
+.m-select-department option:hover {
+    background-color: #2CA01C;
+}
+
+.m-select-department option:active {
+    background-color: #2CA01C;
+}

@@ -1,0 +1,14 @@
+E:\MISA\MISA.Web04.Demo\MISA.core\bin\Debug\net6.0\MISA.core.deps.json
+E:\MISA\MISA.Web04.Demo\MISA.core\bin\Debug\net6.0\MISA.core.dll
+E:\MISA\MISA.Web04.Demo\MISA.core\bin\Debug\net6.0\MISA.core.pdb
+E:\MISA\MISA.Web04.Demo\MISA.core\obj\Debug\net6.0\MISA.core.csproj.AssemblyReference.cache
+E:\MISA\MISA.Web04.Demo\MISA.core\obj\Debug\net6.0\MISA.core.GeneratedMSBuildEditorConfig.editorconfig
+E:\MISA\MISA.Web04.Demo\MISA.core\obj\Debug\net6.0\MISA.core.AssemblyInfoInputs.cache
+E:\MISA\MISA.Web04.Demo\MISA.core\obj\Debug\net6.0\MISA.core.AssemblyInfo.cs
+E:\MISA\MISA.Web04.Demo\MISA.core\obj\Debug\net6.0\MISA.core.csproj.CoreCompileInputs.cache
+E:\MISA\MISA.Web04.Demo\MISA.core\obj\Debug\net6.0\MISA.core.dll
+E:\MISA\MISA.Web04.Demo\MISA.core\obj\Debug\net6.0\refint\MISA.core.dll
+E:\MISA\MISA.Web04.Demo\MISA.core\obj\Debug\net6.0\MISA.core.pdb
+E:\MISA\MISA.Web04.Demo\MISA.core\obj\Debug\net6.0\ref\MISA.core.dll
+E:\MISA\MISA.Web04.Demo\MISA.core\obj\Debug\net6.0\MISA.core.Resources.ResourceVN.resources
+E:\MISA\MISA.Web04.Demo\MISA.core\obj\Debug\net6.0\MISA.core.csproj.GenerateResource.cache

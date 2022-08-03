@@ -1,0 +1,61 @@
+.m-page-header,
+.m-page-toolbar {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.m-page-toolbar {
+    box-sizing: content-box;
+    height: 36px;
+    padding: 16px;
+    padding-bottom: 35px;
+}
+
+.m-page-header div:last-of-type,
+.m-page-toolbar div,
+.m-header-right div:last-of-type {
+    margin-left: auto;
+}
+
+.m-page-grid {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    height: calc(100% - 68px);
+}
+
+.m-grid {
+    width: 100%;
+    height: 100%;
+}
+
+.item-list {
+    white-space: nowrap;
+    transition: all .2s ease;
+    position: relative;
+    z-index: 1000;
+    text-align: left;
+    /* width: 100%; */
+    list-style: none;
+    /* min-width: 100px; */
+    font-weight: 400!important;
+    font-size: 13px;
+    border: 1px solid;
+    width: 50px;
+}
+
+.item {
+    background: inherit!important;
+    color: inherit!important;
+    cursor: pointer;
+    transition: all .2s ease;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    position: relative;
+    display: block;
+}

@@ -1,0 +1,218 @@
+.m-icon {
+    background-image: url("../../assets/img/Sprites.64af8f61.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2019px 1906px;
+}
+
+.m-avatar {
+    background-position: 17.742% 47.705%;
+    width: 32px;
+    height: 24px;
+}
+
+.m-bell {
+    background-position: -788px -30px;
+    width: 32px;
+    height: 24px;
+}
+
+.m-header-icon {
+    margin: 0 10px;
+}
+
+.m-icon-sitebar {
+    background-position: -424px -86px;
+}
+
+.m-three-stripes {
+    background-position: -843px -30px;
+}
+
+.m-chevron {
+    background-position: -80px -360px;
+    transform: rotate(90deg);
+    margin-left: 10px;
+}
+
+.m-chevron-down {
+    background-position: -1076px -32px;
+}
+
+.m-bell {
+    background-position: -788px -30px;
+}
+
+.m-icon-dashboard {
+    background-position: -30px -1628px;
+}
+
+.m-icon-cash {
+    background-position: -73px -1628px;
+}
+
+.m-icon-bank {
+    background-position: -117px -1628px;
+}
+
+.m-icon-pu {
+    background-position: -161px -1628px;
+}
+
+.m-icon-sale {
+    background-position: -204px -1628px;
+}
+
+.m-icon-invoice {
+    background-position: -249px -1628px;
+}
+
+.m-icon-stock {
+    background-position: -291px -1628px
+}
+
+.m-icon-tools {
+    background-position: -336px -1628px;
+}
+
+.m-icon-fixed-assets {
+    background-position: -378px -1630px
+}
+
+.m-icon-tax {
+    background-position: -423px -1630px;
+}
+
+.m-icon-price {
+    background-position: -467px -1628px;
+}
+
+.m-icon-general {
+    background-position: -510px -1628px;
+}
+
+.m-icon-budget {
+    background-position: -378px -1659px;
+}
+
+.m-icon-report {
+    background-position: -547px -1628px
+}
+
+.m-icon-finance {
+    background-position: -204px -1664px;
+}
+
+.m-icon-refresh {
+    background-position: -423px -201px;
+    border: unset;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.m-icon-refresh:hover {
+    background-position: -1097px -88px;
+    border: unset;
+    background-color: #fff;
+}
+
+.m-icon-export {
+    background-position: -705px -202px;
+    border: unset;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.m-icon-export:hover {
+    background-position: -705px -258px;
+    border: unset;
+    background-color: #fff;
+}
+
+.m-icon-search {
+    background-position: -992px -360px;
+}
+
+.m-icon-close {
+    background-position: -144px -144px;
+}
+
+.m-icon-help {
+    background-position: -89px -144px;
+}
+
+.m-icon-arrow-up-blue {
+    border: none;
+    background-position: -900px -365px;
+    margin-top: 13px;
+    background-color: #fff;
+}
+
+.m-exclamation-success {
+    background-position: -1489px -201px;
+}
+
+.m-notification-error {
+    background-position: -752px -462px;
+}
+
+.m-notification-success {
+    background-position: -990px -462px;
+}
+
+.m-exclamation-question {
+    background-position: -598px -463px;
+}
+
+.m-exclamation-warning {
+    background-position: -592px -456px;
+}
+
+.mi-datepicker {
+    background-position: -128px -312px;
+    background-color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    color: #757575;
+    background-position-x: -120px;
+    height: 100%;
+    position: absolute;
+    top: 12px;
+    right: 17px;
+}
+
+.m-icon-multi {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -560px -359px;
+    color: #9d9e9f;
+    margin-right: 7px;
+}
+
+.m-chevron-14 {
+    width: 14px;
+    min-width: 14px;
+    height: 14px;
+    min-height: 14px;
+    display: flex;
+}
+
+.mi-16 {
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+}
+
+.mi-24 {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+}
+
+.mi-48 {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    min-height: 48px;
+}

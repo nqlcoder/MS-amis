@@ -1,0 +1,112 @@
+@import url(./base/input.css);
+@import url(./base/icon.css);
+@import url(./base/button.css);
+@import url(./base/select.css);
+@import url(./base/dialog.css);
+@import url(./base/loading.css);
+@import url(./base/table.css);
+@import url(./base/checkbox.css);
+@import url(./base/label.css);
+@import url(./base/toast-msg.css);
+@font-face {
+    font-family: MISA Fonts;
+    src: url(../assets/fonts/notosans-regular.2cb88a13.woff2);
+}
+
+@font-face {
+    font-family: MISA Fonts Bold;
+    src: url(../assets/fonts/notosans-bold.3ede5aff.woff2);
+}
+
+@font-face {
+    font-family: MISA Fonts Italic;
+    src: url(../assets/fonts/notosans-italic.1c1aaac9.woff2);
+}
+
+@font-face {
+    font-family: MISA Fonts semibold;
+    src: url(../assets/fonts/notosans-semibold.df3e6dc4.woff2);
+}
+
+.heading {
+    font-family: MISA Fonts Bold;
+    font-size: 24px;
+}
+
+.title {
+    font-family: MISA Fonts Bold;
+    font-size: 24px;
+    font-weight: 700;
+    color: #111111;
+}
+
+.title-name {
+    font-family: MISA Fonts;
+    font-size: 14px;
+    font-weight: 600;
+    color: #111111;
+}
+
+.m-label,
+.body-content {
+    font-family: MISA Fonts;
+    color: #111;
+}
+
+.m-label-field-input {
+    font-family: MISA Fonts semibold;
+}
+
+.m-content-details {
+    font-family: MISA Fonts semibold;
+}
+
+.m-row {
+    position: relative;
+    width: 100%;
+}
+
+.m-sub-text,
+.m-hint-text {
+    font-family: MISA Fonts;
+    font-size: 11px;
+}
+
+
+/* Convention */
+
+
+/* Dữ liệu ngày, tháng, checkbox căn giữa */
+
+.text-align-center {
+    text-align: center;
+    /* width: 10%; */
+}
+
+
+/* Dữ liệu text thì căn trái */
+
+.text-align-left {
+    text-align: left;
+    /* width: 10%; */
+}
+
+
+/* Dữ liệu tiền căn phải */
+
+.text-align-right {
+    text-align: right;
+    /* width: 10%; */
+}
+
+.required {
+    color: red;
+}
+
+[notvalid] {
+    border: 1px solid #FE4747;
+}
+
+.m-pointer {
+    cursor: pointer;
+}

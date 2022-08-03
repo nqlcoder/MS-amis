@@ -1,0 +1,73 @@
+.m-navbar {
+    position: relative;
+    width: 179px;
+    height: calc(100vh - 48px);
+    box-sizing: border-box;
+    background-color: #38393D;
+    padding-top: 14px;
+    overflow: auto;
+    scrollbar-width: thin;
+}
+
+.m-navbar-text {
+    font-size: 13px;
+    color: #fff;
+}
+
+.m-navbar .m-navbar-item {
+    padding-left: 8px;
+    padding-right: 14px;
+    align-items: center;
+    display: flex;
+    height: 42px;
+    line-height: 42px;
+    width: 100%;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-decoration: none;
+    border-left: 6px solid transparent;
+}
+
+.m-navbar .m-navbar-item .m-navbar-icon {
+    margin-right: 8px;
+}
+
+.router-link-active.m-navbar-item {
+    color: #fff;
+    background-color: #58595D;
+    border-color: #2ca01c;
+    font-weight: 600;
+}
+
+.m-navbar .m-navbar-item:hover {
+    background-color: #58595D;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #d4d7dc;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b8bcc3;
+}

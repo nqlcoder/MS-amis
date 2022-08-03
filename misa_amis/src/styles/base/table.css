@@ -1,0 +1,124 @@
+@import url(./paging.css);
+.m-grid {
+    position: relative;
+    z-index: 1;
+}
+
+.m-table {
+    min-width: 100%;
+    height: calc(100% - 56px);
+    display: block;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+th {
+    border-bottom: 1px solid #c7c7c7;
+    border-right: 1px solid #c7c7c7;
+}
+
+td {
+    border-bottom: 1px solid #c7c7c7;
+    border-right: 1px dotted #c7c7c7;
+}
+
+table {
+    position: relative;
+    border-collapse: separate;
+    width: 100%;
+    border-spacing: 0;
+    margin: auto;
+}
+
+table.m-table th {
+    background-color: #e5e8ec;
+    text-transform: uppercase;
+    color: #111;
+    font-size: 12px;
+}
+
+table.m-table tr {
+    height: 40px;
+    cursor: pointer;
+}
+
+table.m-table tr td,
+th {
+    padding: 0 10px;
+}
+
+table.m-table tr td:last-child,
+tr th:last-child {
+    padding-left: 16px;
+}
+
+table.m-table tbody tr:hover td {
+    background-color: #F2F9FF;
+}
+
+table.m-table tbody tr.m-row-selected {
+    background-color: #E3F3EE;
+}
+
+table thead th {
+    position: sticky;
+    top: 0;
+}
+
+td {
+    background-color: #fff;
+}
+
+th:first-child,
+td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+}
+
+th:last-child,
+td:last-child {
+    position: sticky;
+    right: 0;
+    z-index: 2;
+    border-left: 1px solid #c7c7c7;
+}
+
+thead th:first-child,
+thead th:last-child {
+    z-index: 3;
+}
+
+.checkAllItem,
+.checkboxItem {
+    width: 16px;
+    height: 18px;
+}
+
+.m-expand {
+    position: absolute;
+    min-width: 110px;
+    max-width: 120px;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    z-index: 10000;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.m-expand .m-expand-item {
+    padding: 8px 10px;
+}
+
+.m-expand .m-expand-item:hover {
+    background-color: #E8E9EC;
+    color: #2CA01C;
+}
+
+.outside {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
